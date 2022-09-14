@@ -1,1 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:wght@400;700&family=Water+Brush&display=swap");
+:root {
+  --primary-color: #ca8a04;
+  --secondary-color: #fef2f2;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin-inline: 1rem;
+}
+.navbar {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 1rem;
+  padding: 0rem 1rem;
 
+  color: white;
+}
+.navbar .navbrand {
+  font-family: "Water Brush", cursive;
+
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  padding: 0rem 0.5rem;
+  padding-top: 1rem;
+  font-style: italic;
+}
+.navbar .list-no-style {
+  list-style: none;
+  text-align: right;
+  padding: 0.5rem;
+}
+.list-items-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+.header {
+  max-width: 500px;
+  margin: 1rem auto;
+  text-align: center;
+}
+.beige-section {
+  padding: 2rem 1rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+.white-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
