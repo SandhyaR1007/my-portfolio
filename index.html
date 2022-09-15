@@ -8,38 +8,70 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <nav class="navbar container">
+    <nav class="navbar">
       <div class="navbrand">Sandhya</div>
       <ul class="list-no-style">
-        <li class="list-items-inline">Home</li>
-        <li class="list-items-inline">Projects</li>
-        <li class="list-items-inline">Blogs</li>
+        <li class="list-items-inline list-pills">
+          <a href="/" class="link">Home</a>
+        </li>
+        <li class="list-items-inline list-pills">
+          <a href="/projects.html" class="link">Projects</a>
+        </li>
+        <li class="list-items-inline list-pills">
+          <a href="/blogs.html" class="link">Blogs</a>
+        </li>
       </ul>
     </nav>
-    <header class="header">
+    <header class="header container">
       <img src="./portfolio-img.svg" />
-      <p>Hello I am Sandhya a web developer</p>
+      <h2 class="intro">
+        Hello, I am Sandhya Rajwanshi the <br />
+        <span class="highlighted">web developer</span>
+      </h2>
     </header>
     <section class="beige-section">
       <h1>Technologies</h1>
-      <p>I work with HTML, CSS, Javascript, React JS, Git, WebHosting</p>
+      <p>
+        I work with
+        <strong> HTML, CSS, Javascript, React JS, Git, WebHosting </strong>
+      </p>
     </section>
     <section class="white-section">
       <h1>Projects</h1>
       <p>I like to showcase my work. Take a moment to look into my work.</p>
-      <a href="">See Projects</a>
+      <a class="link primary-link" href="">See Projects</a>
     </section>
     <section class="beige-section">
       <h1>Blogs</h1>
       <p>I like to write my thoughts and document my learnings.</p>
-      <a href="">Read Blogs</a>
+      <a class="link primary-link" href="">Technical Blogs</a>
+      <a class="link secondary-link" href="">Random Blogs</a>
     </section>
-    <footer>
+    <footer class="footer">
       <h3>Let's connect</h3>
-      <ul>
-        <li>Github</li>
-        <li>LinkedIn</li>
+      <ul class="list-no-style">
+        <li class="list-items-inline social-links">
+          <a href="https://github.com/SandhyaR1007" class="link"
+            ><i class="fa-brands fa-square-github social-icons"></i
+          ></a>
+        </li>
+        <li class="list-items-inline social-links">
+          <a
+            href="https://www.linkedin.com/in/sandhya-rajwanshi-a75b331b4"
+            class="link"
+            ><i class="fa-brands fa-linkedin social-icons"></i
+          ></a>
+        </li>
+        <li class="list-items-inline social-links">
+          <a href="mailto:rajwanshi989sr@gmail.com" class="link"
+            ><i class="fa-solid fa-envelope social-icons"></i
+          ></a>
+        </li>
       </ul>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/f21a52825d.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

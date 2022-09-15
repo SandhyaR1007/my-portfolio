@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:wght@400;700&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Water+Brush&display=swap");
 :root {
   --primary-color: #ca8a04;
-  --secondary-color: #fef2f2;
+  --secondary-color: #fbe9e9;
+  --light-text-color: rgb(202, 138, 4, 0.6);
 }
 * {
   box-sizing: border-box;
@@ -10,6 +11,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 3px;
 }
 .container {
   margin-inline: 1rem;
@@ -17,33 +20,56 @@ body {
 .navbar {
   background-color: var(--primary-color);
   border-bottom-left-radius: 1rem;
-  padding: 0rem 1rem;
+  padding: 0.5rem 3rem;
 
   color: white;
 }
 .navbar .navbrand {
   font-family: "Water Brush", cursive;
-
+  cursor: pointer;
   font-weight: bold;
   font-size: 2rem;
   letter-spacing: 0.2rem;
-  padding: 0rem 0.5rem;
-  padding-top: 1rem;
-  font-style: italic;
+}
+.list-no-style {
+  list-style: none;
 }
 .navbar .list-no-style {
-  list-style: none;
   text-align: right;
-  padding: 0.5rem;
+}
+.list-pills {
+  cursor: pointer;
+}
+.navbar .list-pills {
+  padding: 0.3rem 0.5rem;
+  margin-inline: 0.8rem;
+  font-size: 1.1rem;
+}
+.navbar .list-pills:hover {
+  /* font-weight: bold; */
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 0.3rem;
 }
 .list-items-inline {
   display: inline;
   padding: 0rem 1rem;
 }
+/* header  */
 .header {
-  max-width: 500px;
   margin: 1rem auto;
   text-align: center;
+}
+header img {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+.intro {
+  color: var(--light-text-color);
+}
+.highlighted {
+  color: var(--primary-color);
+  font-size: 1.8rem;
 }
 .beige-section {
   padding: 2rem 1rem;
@@ -53,4 +79,49 @@ body {
 .white-section {
   padding: 2rem 1rem;
   text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.primary-link {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem 0rem;
+}
+.primary-link:hover {
+  /* opacity: 0.7; */
+  background-color: #a16207;
+}
+.secondary-link {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem 0rem;
+}
+.secondary-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+  border-top-right-radius: 1rem;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  color: white;
+}
+.footer .list-no-style {
+  padding: 0;
+}
+.social-icons {
+  font-size: 2.7rem;
+  margin: 0rem 1rem;
+  cursor: pointer;
 }
