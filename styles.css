@@ -72,12 +72,12 @@ header img {
   font-size: 1.8rem;
 }
 .beige-section {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   background-color: var(--secondary-color);
   text-align: center;
 }
 .white-section {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
 }
 .link {
