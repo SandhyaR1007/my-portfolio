@@ -45,7 +45,7 @@ body {
 }
 .navbar .list-pills {
   padding: 0.3rem 0.5rem;
-  margin-inline: 0.8rem;
+  /* margin-inline: 0.8rem; */
   font-size: 1.1rem;
 }
 .navbar .list-pills:hover {
