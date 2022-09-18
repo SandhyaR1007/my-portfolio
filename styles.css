@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Water+Brush&display=swap");
 :root {
+  --background-color: #f3f3f229;
   --primary-color: #ca8a04;
   --secondary-color: #fbe9e9;
   --light-text-color: rgb(202, 138, 4, 0.6);
@@ -13,6 +14,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Montserrat", sans-serif;
   word-spacing: 3px;
+
+  background-color: var(--background-color);
 }
 .container {
   margin-inline: 1rem;
@@ -71,6 +74,10 @@ header img {
   color: var(--primary-color);
   font-size: 1.8rem;
 }
+.heading {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
 .beige-section {
   padding: 2.5rem 1rem;
   background-color: var(--secondary-color);
@@ -79,6 +86,10 @@ header img {
 .white-section {
   padding: 2.5rem 1rem;
   text-align: center;
+}
+.inner-container {
+  max-width: 900px;
+  margin: auto;
 }
 .link {
   text-decoration: none;
