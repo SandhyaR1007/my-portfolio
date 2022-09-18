@@ -23,7 +23,7 @@ body {
 .navbar {
   background-color: var(--primary-color);
   border-bottom-left-radius: 1rem;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 1.5rem;
 
   color: white;
 }
