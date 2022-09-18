@@ -67,6 +67,10 @@ header img {
   width: 100%;
   padding: 1rem 0rem;
 }
+.blog-imgs {
+  max-width: 400px;
+  width: 100%;
+}
 .intro {
   color: var(--light-text-color);
 }
